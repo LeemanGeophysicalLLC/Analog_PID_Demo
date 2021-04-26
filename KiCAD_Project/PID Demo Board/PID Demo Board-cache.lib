@@ -240,6 +240,21 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
+# misc_barepcb
+#
+DEF misc_barepcb PCB 0 40 Y Y 1 F N
+F0 "PCB" -100 150 50 H V C CNN
+F1 "misc_barepcb" 0 0 50 H V C CNN
+F2 "misc:barepcb" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Bare PCB" 0 0 50 H I C CNN "PValue"
+DRAW
+S -200 100 200 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # np_connectors_NP_Conn_01x04
 #
 DEF np_connectors_NP_Conn_01x04 J 0 40 Y N 1 F N
