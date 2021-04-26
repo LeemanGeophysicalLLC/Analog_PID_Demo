@@ -1,0 +1,425 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# amplifiers_1-0000419
+#
+DEF amplifiers_1-0000419 U 0 40 Y Y 2 L N
+F0 "U" 100 -100 50 H V C CNN
+F1 "amplifiers_1-0000419" 200 100 50 H I C CNN
+F2 "amplifiers:1-0000419" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000419" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "LF356" 0 0 50 H V C CNN "PValue"
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+X NULL 1 0 -300 200 U 50 20 1 1 I
+X - 2 -300 100 100 R 50 50 1 1 I
+X + 3 -300 -100 100 R 50 50 1 1 I
+X NULL 5 100 -300 250 U 50 20 1 1 I
+X ~ 6 300 0 100 L 50 50 1 1 O
+X NC 8 0 100 100 D 50 50 1 1 N N
+X V- 4 -100 -300 150 U 50 50 2 1 W
+X V+ 7 -100 300 150 D 50 50 2 1 W
+ENDDRAW
+ENDDEF
+#
+# capacitors_0603_1-0000007
+#
+DEF capacitors_0603_1-0000007 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "capacitors_0603_1-0000007" 25 -100 50 H I L CNN
+F2 "capacitors_0603:1-0000007" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000007" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "0.1uF" 0 0 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitors_0603_1-0000018
+#
+DEF capacitors_0603_1-0000018 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "capacitors_0603_1-0000018" 25 -100 50 H I L CNN
+F2 "capacitors_0603:1-0000018" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000018" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "1uF" 0 0 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitors_0603_1-0000322
+#
+DEF capacitors_0603_1-0000322 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "capacitors_0603_1-0000322" 25 -100 50 H I L CNN
+F2 "capacitors_0603:1-0000322" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000322" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "220pF" 0 0 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitors_0603_1-0000324
+#
+DEF capacitors_0603_1-0000324 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "capacitors_0603_1-0000324" 25 -100 50 H I L CNN
+F2 "capacitors_0603:1-0000324" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000324" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "2.2uF" 0 0 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitors_0805_1-0000352
+#
+DEF capacitors_0805_1-0000352 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "capacitors_0805_1-0000352" 25 -100 50 H I L CNN
+F2 "capacitors_0805:1-0000352" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000352" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "0.33uF" 0 0 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connectors_1-0000001
+#
+DEF connectors_1-0000001 CON 0 40 Y Y 1 F N
+F0 "CON" 0 250 50 H V C CNN
+F1 "connectors_1-0000001" 0 -200 50 H I C CNN
+F2 "connectors:1-0000001" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000001" 0 0 60 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "Barrel Jack" 0 0 50 H V C CNN "PValue"
+DRAW
+A -300 99 49 -900 1788 0 1 0 N -300 50 -350 100
+A -300 101 49 900 -1788 0 1 0 N -300 150 -350 100
+S 100 150 0 50 0 1 0 N
+P 2 0 1 0 -300 50 0 50 N
+P 2 0 1 0 0 150 -300 150 N
+P 3 0 1 0 100 0 -50 0 -50 -100 N
+P 5 0 1 0 100 -100 -150 -100 -200 -50 -250 -100 -350 -100 N
+X ~ 1 300 100 200 L 50 50 1 1 P
+X ~ 2 300 -100 200 L 50 50 1 1 P
+X ~ 3 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connectors_1-0000120
+#
+DEF connectors_1-0000120 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "connectors_1-0000120" 0 -200 50 H I C CNN
+F2 "connectors:1-0000120" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000120" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "TSW-102-07-T-S" 0 0 50 H V C CNN "PValue"
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dc_dc_converters_1-0000465
+#
+DEF dc_dc_converters_1-0000465 U 0 20 Y Y 1 F N
+F0 "U" -350 350 50 H V C CNN
+F1 "dc_dc_converters_1-0000465" 400 350 50 H I R CNN
+F2 "dc_dc_converters:1-0000465" 0 -350 50 H I C CNN
+F3 "" 0 -500 50 H I C CNN
+F4 "1-0000465" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "TEC2-0921" 0 0 50 H V C CNN "PValue"
+$FPLIST
+ Converter*DCDC*TRACO*TMR*xxxx*
+$ENDFPLIST
+DRAW
+S -400 300 400 -300 0 1 10 f
+P 2 0 1 0 0 -200 0 -250 N
+P 2 0 1 0 0 -100 0 -150 N
+P 2 0 1 0 0 0 0 -50 N
+P 2 0 1 0 0 100 0 50 N
+P 2 0 1 0 0 200 0 150 N
+P 2 0 1 0 0 300 0 250 N
+X GNDin 1 -500 -200 100 R 50 50 1 1 P
+X Vin 2 -500 0 100 R 50 50 1 1 P
+X ON/~OFF 3 -500 200 100 R 50 50 1 1 P
+X NC 5 -100 300 100 D 50 50 1 1 N N
+X +Out 6 500 200 100 L 50 50 1 1 P
+X VoutCom 7 500 0 100 L 50 50 1 1 P
+X -Out 8 500 -200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# leds_0805_1-0000598
+#
+DEF leds_0805_1-0000598 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "leds_0805_1-0000598" 0 -100 50 H I C CNN
+F2 "leds_0805:1-0000598" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000598" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "Green" 25 -100 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mechanical_Fiducial_1mm_2mm
+#
+DEF mechanical_Fiducial_1mm_2mm FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "mechanical_Fiducial_1mm_2mm" 0 125 50 H I C CNN
+F2 "mechanical:Fiducial_1mm_Mask2mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Fiducial" 0 0 50 H I C CNN "PValue"
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# mechanical_M3_ISO_7380
+#
+DEF mechanical_M3_ISO_7380 H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "mechanical_M3_ISO_7380" 0 125 50 H I C CNN
+F2 "mechanical:MountingHole_3.2mm_M3_ISO7380" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "M3" 0 0 50 H I C CNN "PValue"
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# np_connectors_NP_Conn_01x04
+#
+DEF np_connectors_NP_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "np_connectors_NP_Conn_01x04" 0 -300 50 H I C CNN
+F2 "np_connectors:PinHeader_1x04_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "NP_Conn_01x04" 0 0 50 H V C CNN "PValue"
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_-5V
+#
+DEF power_-5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 50 H I C CNN
+F1 "power_-5V" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
+X -5V 1 0 0 0 U 50 50 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# resistors_0603_1-0000006
+#
+DEF resistors_0603_1-0000006 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "resistors_0603_1-0000006" 0 0 50 V I C CNN
+F2 "resistors_0603:1-0000006" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000006" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "0R0" 0 0 50 V V C CNN "PValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistors_0603_1-0000008
+#
+DEF resistors_0603_1-0000008 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "resistors_0603_1-0000008" 0 0 50 V I C CNN
+F2 "resistors_0603:1-0000008" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000008" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "150" 0 0 50 V V C CNN "PValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistors_0603_1-0000011
+#
+DEF resistors_0603_1-0000011 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "resistors_0603_1-0000011" 0 0 50 V I C CNN
+F2 "resistors_0603:1-0000011" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000011" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "47k" 0 0 50 V V C CNN "PValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistors_0603_1-0000013
+#
+DEF resistors_0603_1-0000013 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "resistors_0603_1-0000013" 0 0 50 V I C CNN
+F2 "resistors_0603:1-0000013" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000013" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "1k" 0 0 50 V V C CNN "PValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistors_0603_1-0000174
+#
+DEF resistors_0603_1-0000174 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "resistors_0603_1-0000174" 0 0 50 V I C CNN
+F2 "resistors_0603:1-0000174" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000174" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "100k" 0 0 50 V V C CNN "PValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistors_variable_1-0000337
+#
+DEF resistors_variable_1-0000337 RV 0 40 N N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "resistors_variable_1-0000337" -100 0 50 V I C CNN
+F2 "resistors_variable:1-0000337" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000337" 0 0 60 H I C CNN "Internal Part Number"
+F5 "1" 0 0 60 H I C CNN "Populated"
+F6 "100k" 0 0 60 V V C CNN "PValue"
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 3 0 1 0 45 0 90 20 90 -20 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
